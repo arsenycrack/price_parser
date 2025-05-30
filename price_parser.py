@@ -13,9 +13,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 logging.basicConfig(level=logging.INFO)
 
-proxies = os.getenv('PROXIES')
+proxies = os.getenv('ПРОКСИ_СКРЫТ_ПО_ПРЕДОСТАВЛЕНИЮ_АВТОРА')
 
-bot = Bot(os.getenv("TOKEN"))
+bot = Bot(os.getenv("ТОКЕН_СКРЫТ_ПО_ПРЕДОСТАВЛЕНИЮ_АВТОРА"))
 dp = Dispatcher()
 
 def get_category():
